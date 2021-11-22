@@ -1,0 +1,16 @@
+kew19@compute-a-16-168:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts$ python testing_submitO2.py
+set(['51313017'])
+Wed Sep 25 23:22:13 2019
+sbatch -p short -t 0-00:05 --job-name=waitFile -o waitFile-%j.out -e waitFile-%j.err --exclude=compute-f-17-[09-25] --mem=10M --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/waitFile.py"
+Submitted batch job 51313049
+set(['51313049', '51313017'])
+Wed Sep 25 23:22:14 2019
+Wed Sep 25 23:25:24 2019
+Submitting to O2:
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/waitFile.py
+sbatch -p short -t 0-00:05 --job-name=waitFile -o waitFile-%j.out -e waitFile-%j.err --exclude=compute-f-17-[09-25] --mem=10M --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/waitFile.py"
+Submitted batch job 51313206
+set(['51313017'])
+Wed Sep 25 23:29:30 2019
+
+
