@@ -1,0 +1,1010 @@
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_1-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_1-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_1-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+23601 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=23601
+  a=-23.42083812845 (regression y-intercept)
+  b=4.9598670980274 (regression slope)
+  stdevb=0.00758651635139923
+  stdeva=2.57690589052292
+  r=0.973486678140095
+  mse=127.374417909083 (mean unexplained error)
+  mse/avgy=0.0810420359377405 (quality indicator [cf. -q parameter])
+  R^2=0.947676312516236 (coefficient of determination)
+  ssexp=6934572728.0448 (explained sum of squares)
+  ssnexp=382875894.926857 (unexplained sum of squares)
+  df=23599
+  F=427420.435648977
+  avgx=321.607177661963
+  stdevx=109.290852258833
+  sumx2=2722969175 (sum x^2)
+  sumxm2=281889973.144104 (sum (x-avgx)^2)
+  avgy=1571.70802084657
+  stdevy=556.831556513554
+  sumy2=65618198915 (sum y^2)
+  sumym2=7317448622.97166 (sum (y-avgy)^2)
+  sumxy=13327795180 (sum xy)
+  sumxym=1398136803.06127 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_2-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_2-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/2-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+4036 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=4036
+  a=-24.8410417523453 (regression y-intercept)
+  b=5.03403532176327 (regression slope)
+  stdevb=0.00665668830815717
+  stdeva=3.35082040901219
+  r=0.996491676214266
+  mse=149.954172170641 (mean unexplained error)
+  mse/avgy=0.0845402753274678 (quality indicator [cf. -q parameter])
+  R^2=0.992995660764317 (coefficient of determination)
+  ssexp=12859769374.2004 (explained sum of squares)
+  ssnexp=90709547.6330762 (unexplained sum of squares)
+  df=4034
+  F=571894.701375496
+  avgx=357.288156590684
+  stdevx=354.632523165477
+  sumx2=1022673535 (sum x^2)
+  sumxm2=507458653.873885 (sum (x-avgx)^2)
+  avgy=1773.76015857284
+  stdevy=1791.51787262615
+  sumy2=25648643426 (sum y^2)
+  sumym2=12950478921.8335 (sum (y-avgy)^2)
+  sumxy=5112353543 (sum xy)
+  sumxym=2554564787.93558 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/2-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_2-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_2-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+60099 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=60099
+  a=76.2096141008078 (regression y-intercept)
+  b=4.14041157565803 (regression slope)
+  stdevb=0.00233333088179183
+  stdeva=1.80678133230283
+  r=0.990591391445117
+  mse=259.392462143216 (mean unexplained error)
+  mse/avgy=0.0969692937106155 (quality indicator [cf. -q parameter])
+  R^2=0.981271304805173 (coefficient of determination)
+  ssexp=211860051333.388 (explained sum of squares)
+  ssnexp=4043593556.59662 (unexplained sum of squares)
+  df=60097
+  F=3148722.37448586
+  avgx=627.663754804572
+  stdevx=453.472560132792
+  sumx2=36035103792 (sum x^2)
+  sumxm2=12358394229.1571 (sum (x-avgx)^2)
+  avgy=2674.99589011464
+  stdevy=1895.39607696169
+  sumy2=645948230316 (sum y^2)
+  sumym2=215903644889.985 (sum (y-avgy)^2)
+  sumxy=152074937190 (sum xy)
+  sumxym=51168838522.9474 (sum (x-avgx)*(y-avgy))
+
+
+42 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_3-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_3-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/3-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+34 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=34
+  a=175.74645402541 (regression y-intercept)
+  b=6.49463731706996 (regression slope)
+  stdevb=0.138874527801506
+  stdeva=69.3451739524787
+  r=0.992763621336515
+  mse=312.122667988854 (mean unexplained error)
+  mse/avgy=0.139501665680159 (quality indicator [cf. -q parameter])
+  R^2=0.985579607849192 (coefficient of determination)
+  ssexp=213066532.319375 (explained sum of squares)
+  ssnexp=3117457.91591938 (unexplained sum of squares)
+  df=32
+  F=2187.0797355124
+  avgx=317.441176470588
+  stdevx=391.242247763374
+  sumx2=8477469 (sum x^2)
+  sumxm2=5051326.38235294 (sum (x-avgx)^2)
+  avgy=2237.41176470588
+  stdevy=2559.49799904788
+  sumy2=386388378 (sum y^2)
+  sumym2=216183990.235294 (sum (y-avgy)^2)
+  sumxy=56954918 (sum xy)
+  sumxym=32806532.8235294 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/3-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_3-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_3-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+62389 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=62389
+  a=-2.9967165322787 (regression y-intercept)
+  b=4.94549278451335 (regression slope)
+  stdevb=0.00320895478885723
+  stdeva=2.36367509696723
+  r=0.987119938954242
+  mse=131.981241897519 (mean unexplained error)
+  mse/avgy=0.0372029454805189 (quality indicator [cf. -q parameter])
+  R^2=0.974405773881026 (coefficient of determination)
+  ssexp=41372938693.95 (explained sum of squares)
+  ssnexp=1086722160.85266 (unexplained sum of squares)
+  df=62387
+  F=2375154.95614283
+  avgx=717.946384779368
+  stdevx=164.663779897001
+  sumx2=33849821835 (sum x^2)
+  sumxm2=1691598239.65709 (sum (x-avgx)^2)
+  avgy=3547.60194906153
+  stdevy=824.969188864762
+  sumy2=827655146932 (sum y^2)
+  sumym2=42459660854.803 (sum (y-avgy)^2)
+  sumxy=167269820844 (sum xy)
+  sumxym=8365786888.51962 (sum (x-avgx)*(y-avgy))
+
+
+2 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_4-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_4-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/4-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+440 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=440
+  a=-76.4114638276278 (regression y-intercept)
+  b=7.73593180145196 (regression slope)
+  stdevb=0.0575458280476088
+  stdeva=14.7312862282828
+  r=0.988097492877433
+  mse=60.7143393596356 (mean unexplained error)
+  mse/avgy=0.0325489334886069 (quality indicator [cf. -q parameter])
+  R^2=0.97633665543067 (coefficient of determination)
+  ssexp=66616241.3453021 (explained sum of squares)
+  ssnexp=1614569.17969812 (unexplained sum of squares)
+  df=438
+  F=18071.6404574858
+  avgx=251.002272727273
+  stdevx=50.355297946387
+  sumx2=28834095 (sum x^2)
+  sumxm2=1113152.99772727 (sum (x-avgx)^2)
+  avgy=1865.325
+  stdevy=394.237566194659
+  sumy2=1599183247 (sum y^2)
+  sumym2=68230810.5249999 (sum (y-avgy)^2)
+  sumxy=214619634 (sum xy)
+  sumxym=8611275.67499998 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/4-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_4-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_4-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+46843 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=46843
+  a=-21.9571708747753 (regression y-intercept)
+  b=4.98864979445256 (regression slope)
+  stdevb=0.00282528050282594
+  stdeva=1.63468456161785
+  r=0.992571638217509
+  mse=156.869406838625 (mean unexplained error)
+  mse/avgy=0.0611527662673834 (quality indicator [cf. -q parameter])
+  R^2=0.985198456993789 (coefficient of determination)
+  ssexp=76721908667.5773 (explained sum of squares)
+  ssnexp=1152663833.9719 (unexplained sum of squares)
+  df=46841
+  F=3117761.49991152
+  avgx=518.609781610913
+  stdevx=256.542289979505
+  sumx2=15681567738 (sum x^2)
+  sumxm2=3082856884.19807 (sum (x-avgx)^2)
+  avgy=2565.20540955959
+  stdevy=1289.37760550256
+  sumy2=386114572013 (sum y^2)
+  sumym2=77874572501.5492 (sum (y-avgy)^2)
+  sumxy=77696438895 (sum xy)
+  sumxym=15379293361.6813 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_5-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_5-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/5-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+9380 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=9380
+  a=-25.1326987362049 (regression y-intercept)
+  b=4.98001021298446 (regression slope)
+  stdevb=0.01047486366914
+  stdeva=2.62260312855784
+  r=0.979878855713902
+  mse=61.3800512652292 (mean unexplained error)
+  mse/avgy=0.0518078076448623 (quality indicator [cf. -q parameter])
+  R^2=0.960162571875187 (coefficient of determination)
+  ssexp=851565781.496166 (explained sum of squares)
+  ssnexp=35331715.2819753 (unexplained sum of squares)
+  df=9378
+  F=226028.762972206
+  avgx=242.950746268657
+  stdevx=60.5063004500739
+  sumx2=587991746 (sum x^2)
+  sumxm2=34336635.2447761 (sum (x-avgx)^2)
+  avgy=1184.7644989339
+  stdevy=307.509435920773
+  sumy2=14053293187 (sum y^2)
+  sumym2=886897496.778145 (sum (y-avgy)^2)
+  sumxy=2870930546 (sum xy)
+  sumxym=170996794.198507 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/5-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_5-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_5-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+61201 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=61201
+  a=22.3938978254569 (regression y-intercept)
+  b=3.86600533653403 (regression slope)
+  stdevb=0.00307114389015031
+  stdeva=2.35772504078726
+  r=0.981231586910335
+  mse=225.06207030988 (mean unexplained error)
+  mse/avgy=0.081529734821029 (quality indicator [cf. -q parameter])
+  R^2=0.962815427150574 (coefficient of determination)
+  ssexp=80265550427.7094 (explained sum of squares)
+  ssnexp=3099908999.18527 (unexplained sum of squares)
+  df=61199
+  F=1584617.94262877
+  avgx=708.249603764644
+  stdevx=296.228223353754
+  sumx2=36069863704 (sum x^2)
+  sumxm2=5370371011.05289 (sum (x-avgx)^2)
+  avgy=2760.49064557769
+  stdevy=1167.12497599434
+  sumy2=549735966320 (sum y^2)
+  sumym2=83365459426.8946 (sum (y-avgy)^2)
+  sumxy=140416962147 (sum xy)
+  sumxym=20761882987.8981 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_6-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_6-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/6-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+2339 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=2339
+  a=-53.6648577115541 (regression y-intercept)
+  b=7.63373861161169 (regression slope)
+  stdevb=0.0478914906228616
+  stdeva=10.3336433102906
+  r=0.956956825290599
+  mse=41.4489460923386 (mean unexplained error)
+  mse/avgy=0.0261045140664081 (quality indicator [cf. -q parameter])
+  R^2=0.915766365470262 (coefficient of determination)
+  ssexp=43650060.0606689 (explained sum of squares)
+  ssnexp=4015001.36387098 (unexplained sum of squares)
+  df=2337
+  F=25407.261696029
+  avgx=215.028644719966
+  stdevx=17.8991696478362
+  sumx2=108898136 (sum x^2)
+  sumxm2=749049.080803767 (sum (x-avgx)^2)
+  avgy=1587.80761008978
+  stdevy=142.783434785559
+  sumy2=5944595164 (sum y^2)
+  sumym2=47665061.4245405 (sum (y-avgy)^2)
+  sumxy=804309058 (sum xy)
+  sumxym=5718044.89012396 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/6-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_6-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_6-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+62449 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=62449
+  a=46.0230507641418 (regression y-intercept)
+  b=4.85356535707121 (regression slope)
+  stdevb=0.011247615192161
+  stdeva=12.1130057571176
+  r=0.865368110581788
+  mse=677.97565109525 (mean unexplained error)
+  mse/avgy=0.131896003325433 (quality indicator [cf. -q parameter])
+  R^2=0.748861966811894 (coefficient of determination)
+  ssexp=85591188820.0669 (explained sum of squares)
+  ssnexp=28703824965.2525 (unexplained sum of squares)
+  df=62447
+  F=186209.084493688
+  avgx=1049.58015340518
+  stdevx=241.209484318973
+  sumx2=72428324101 (sum x^2)
+  sumxm2=3633350493.04213 (sum (x-avgx)^2)
+  avgy=5140.22892280101
+  stdevy=1352.86473186595
+  sumy2=1764319580338 (sum y^2)
+  sumym2=114295013785.32 (sum (y-avgy)^2)
+  sumxy=354552196221 (sum xy)
+  sumxym=17634704083.1269 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_7-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_7-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/7-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+20472 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=20472
+  a=9.45573148427593 (regression y-intercept)
+  b=4.93036937142643 (regression slope)
+  stdevb=0.00975331609764436
+  stdeva=3.31279229483868
+  r=0.962203355292358
+  mse=164.538004848563 (mean unexplained error)
+  mse/avgy=0.104140521238999 (quality indicator [cf. -q parameter])
+  R^2=0.925835296935873 (coefficient of determination)
+  ssexp=6918098927.85497 (explained sum of squares)
+  ssnexp=554179295.659501 (unexplained sum of squares)
+  df=20470
+  F=255537.307442466
+  avgx=318.537123876514
+  stdevx=117.90830552112
+  sumx2=2361805276 (sum x^2)
+  sumxm2=284595385.785854 (sum (x-avgx)^2)
+  avgy=1579.96141070731
+  stdevy=604.166982977822
+  sumy2=58576082654 (sum y^2)
+  sumym2=7472278223.51446 (sum (y-avgy)^2)
+  sumxy=11706234089 (sum xy)
+  sumxym=1403160373.32786 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/7-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_7-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_7-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+52752 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=52752
+  a=31.8844325955242 (regression y-intercept)
+  b=3.88781236164579 (regression slope)
+  stdevb=0.0034098039678546
+  stdeva=4.03494762416128
+  r=0.980309178627297
+  mse=491.094165615261 (mean unexplained error)
+  mse/avgy=0.124851812745527 (quality indicator [cf. -q parameter])
+  R^2=0.961006085700926 (coefficient of determination)
+  ssexp=313531599595.466 (explained sum of squares)
+  ssnexp=12721901043.6962 (unexplained sum of squares)
+  df=52750
+  F=1300025.19449371
+  avgx=1003.52887094328
+  stdevx=627.075761615806
+  sumx2=73867926711 (sum x^2)
+  sumxm2=20742959794.0296 (sum (x-avgx)^2)
+  avgy=3933.41638231726
+  stdevy=2486.92244329711
+  sumy2=1142420018203 (sum y^2)
+  sumym2=326253500639.162 (sum (y-avgy)^2)
+  sumxy=288872541631 (sum xy)
+  sumxym=80644735504.3497 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_8-8.gpr (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_8-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/8-8_output1.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+17100 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=17100
+  a=-11.262916430135 (regression y-intercept)
+  b=4.92805148985332 (regression slope)
+  stdevb=0.012096636334046
+  stdeva=3.55055223282562
+  r=0.952156173711468
+  mse=148.986560624828 (mean unexplained error)
+  mse/avgy=0.109653389601437 (quality indicator [cf. -q parameter])
+  R^2=0.906601379136863 (coefficient of determination)
+  ssexp=3683964306.71416 (explained sum of squares)
+  ssnexp=379524224.730052 (unexplained sum of squares)
+  df=17098
+  F=165966.801621165
+  avgx=277.993742690058
+  stdevx=94.1883337198853
+  sumx2=1473189699 (sum x^2)
+  sumxm2=151692790.330468 (sum (x-avgx)^2)
+  avgy=1358.70456140351
+  stdevy=487.488262041914
+  sumy2=35631423788 (sum y^2)
+  sumym2=4063488531.44421 (sum (y-avgy)^2)
+  sumxy=7206414244 (sum xy)
+  sumxym=747549881.38807 (sum (x-avgx)*(y-avgy))
+
+
+0 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+
+Parameters for current masliner execution:
+  -g1: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/8-8_output1.GPR (genepix file 1)
+  -g2: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_8-8.gpr (genepix file 2)
+  -f1: 488 (fluor used in genepix file 1)
+  -f2: 488 (fluor used in genepix file 2)
+  -m:  straight (regression calculation mode) 
+  -ll: 200 (low limit of linear adjbsi range)
+  -lh: 40000 (high limit of linear adjbsi range)
+  -inc: 1000 (dynamic regression range increment)
+  -q:  0.05 (dynamic regression range quality)
+  -o:  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_8-8.GPR (output adjusted high intensity scan file)
+
+
+Commencing regression analysis and adjustment.
+
+Performing linear regression of data points with intensities between 200 and 40000.
+
+53708 spots will be used to perform interpolation. 0 were previously adjusted.
+
+Regression information:
+  N=53708
+  a=84.8121870322011 (regression y-intercept)
+  b=3.80796921702694 (regression slope)
+  stdevb=0.00519531654814036
+  stdeva=5.0736134205578
+  r=0.953476560436857
+  mse=583.308437611741 (mean unexplained error)
+  mse/avgy=0.176028996557179 (quality indicator [cf. -q parameter])
+  R^2=0.909117551302499 (coefficient of determination)
+  ssexp=182792910116.429 (explained sum of squares)
+  ssnexp=18273398475.3924 (unexplained sum of squares)
+  df=53706
+  F=537233.183194301
+  avgx=847.930792433157
+  stdevx=484.474359859839
+  sumx2=51221194133 (sum x^2)
+  sumxm2=12605860275.7555 (sum (x-avgx)^2)
+  avgy=3313.70654278692
+  stdevy=1934.88075673285
+  sumy2=790815115277 (sum y^2)
+  sumym2=201066308591.821 (sum (y-avgy)^2)
+  sumxy=198911134085 (sum xy)
+  sumxym=48002727884.2195 (sum (x-avgx)*(y-avgy))
+
+
+1 high intensity scan BSI values adjusted.
+
+
+Rewriting high intensity scan array file with adjusted values.
+
+Program complete.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_1-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCA02-R.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_2-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/YY1-GST.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_3-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AR882H.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_4-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_5-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX12F12-R.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_6-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AWT.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_7-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCH01.
+Array format recognized as '8x60K'.
+Reading Input File /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_AdjMaslinerOutput_8-8.GPR.
+Computing Expected Cy3 Signals. 4^3 Parameters.
+Normalizing Alexa488 Intensities by Cy3.
+Calculating Neighborhood Median for Alexa488. Radius = 7.
+Printing to output files for /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX1E12.
+Assuming all of the Alexa488 files have the prefix: 191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_
+=========================
+Processing block 1-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_1-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_1-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_1-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_1-8.gpr
+Using name: RORCA02-R
+=========================
+Processing block 2-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_2-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_2-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_2-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_2-8.gpr
+Using name: YY1-GST
+=========================
+Processing block 3-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_3-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_3-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_3-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_3-8.gpr
+Using name: DNMT3AR882H
+=========================
+Processing block 4-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_4-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_4-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_4-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_4-8.gpr
+Using name: RORCC02
+=========================
+Processing block 5-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_5-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_5-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_5-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_5-8.gpr
+Using name: PKNOX12F12-R
+=========================
+Processing block 6-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_6-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_6-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_6-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_6-8.gpr
+Using name: DNMT3AWT
+=========================
+Processing block 7-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_7-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_7-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_7-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_7-8.gpr
+Using name: RORCH01
+=========================
+Processing block 8-8
+-- Cy3 file -- 
+190926_v14_281_1_doublestranded_Cy3_lp500pg100_8-8.gpr
+-- Alexa488 file(s) (should be sorted by intensity) --
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp400pg100_8-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp500pg100_8-8.gpr
+191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp600pg100_8-8.gpr
+Using name: PKNOX1E12
+Using the following column as the signal value: "F488 Median - B488"
+File 191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_lp300pg100_1-8.gpr does not have enough values in linear range. Therefore, it will not be used.
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Using the following column as the signal value: "F488 Median - B488"
+Now running masliner on block 1-8 .
+Now running masliner on block 2-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/2-8_output1.GPR
+Now running masliner on block 3-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/3-8_output1.GPR
+Now running masliner on block 4-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/4-8_output1.GPR
+Now running masliner on block 5-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/5-8_output1.GPR
+Now running masliner on block 6-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/6-8_output1.GPR
+Now running masliner on block 7-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/7-8_output1.GPR
+Now running masliner on block 8-8 .
+Deleting intermediate files: 
+/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/8-8_output1.GPR
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_1-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_2-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_3-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_4-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_5-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_6-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_7-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Adjusting /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/191105_v14_281_1_RORCA02-R_YY1-GST_DNMT3AR882H_RORCC02_PKNOX12F12-R_DNMT3AWT_RORCH01_PKNOX1E12_Alexa488_MaslinerOutput_8-8.GPR to prevent negative ADJBSI values.
+Using the following column as the signal value: ADJBSI
+Normalization
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCA02-R_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/YY1-GST_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AR882H_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX12F12-R_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AWT_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCH01_original_combinatorial.txt
+Copying raw combinatorial file to: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX1E12_original_combinatorial.txt
+Submitting S&W + BEEML-PBM jobs...
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCA02-R_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCA02-R_combinatorial.txt"
+Submitted batch job 56024351
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/YY1-GST_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/YY1-GST_combinatorial.txt"
+Submitted batch job 56024352
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AR882H_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AR882H_combinatorial.txt"
+Submitted batch job 56024353
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_combinatorial.txt"
+Submitted batch job 56024354
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX12F12-R_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX12F12-R_combinatorial.txt"
+Submitted batch job 56024355
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AWT_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/DNMT3AWT_combinatorial.txt"
+Submitted batch job 56024356
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCH01_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCH01_combinatorial.txt"
+Submitted batch job 56024357
+Submitting to O2: 
+ python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX1E12_combinatorial.txt
+sbatch -p short -t 0-02:00 --job-name=AnalyzeSinglePBM -o AnalyzeSinglePBM-%j.out -e AnalyzeSinglePBM-%j.err --exclude=compute-f-17-[09-25] --mem=2G --wrap="python /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/AnalyzeSinglePBM.py -vv  --trim  -p 8of10  /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX1E12_combinatorial.txt"
+Submitted batch job 56024358
+Finished S&W jobs. Writing report.
+Generating .pdf report
+Emailing .pdf report
+Finished Program.

@@ -1,0 +1,29 @@
+INFO:root:Submitted batch job 56024351
+
+INFO:root:Submitted batch job 56024352
+
+INFO:root:Submitted batch job 56024353
+
+INFO:root:Submitted batch job 56024354
+
+INFO:root:Submitted batch job 56024355
+
+INFO:root:Submitted batch job 56024356
+
+INFO:root:Submitted batch job 56024357
+
+INFO:root:Submitted batch job 56024358
+
+WARNING:root:Trimmed motif file does not exist: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX12F12-R_secondary_trim.png
+WARNING:root:Trimmed motif file does not exist: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCH01_secondary_trim.png
+WARNING:root:Trimmed motif file does not exist: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_BEEML_trim.png
+WARNING:root:Trimmed motif file does not exist: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX12F12-R_BEEML_trim.png
+WARNING:root:Trimmed motif file does not exist: /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/PKNOX1E12_BEEML_trim.png
+Loading pages (1/6)
+[>                                                           ] 0%[======>                                                     ] 10%[======>                                                     ] 11%[========>                                                   ] 14%[==========>                                                 ] 17%[============>                                               ] 21%[=============>                                              ] 23%[===============>                                            ] 26%[=================>                                          ] 29%[===================>                                        ] 32%[====================>                                       ] 34%[=====================>                                      ] 36%[======================>                                     ] 38%[========================>                                   ] 41%[=========================>                                  ] 43%[===========================>                                ] 45%[============================>                               ] 47%[============================================================] 100%Counting pages (2/6)                                               
+[============================================================] Object 1 of 1Resolving links (4/6)                                                       
+[============================================================] Object 1 of 1Loading headers and footers (5/6)                                           
+Printing pages (6/6)
+[>                                                           ] Preparing[====>                                                       ] Page 1 of 13[=========>                                                  ] Page 2 of 13[=============>                                              ] Page 3 of 13[==================>                                         ] Page 4 of 13[======================>                                     ] Page 5 of 13[===========================>                                ] Page 6 of 13[===============================>                            ] Page 7 of 13[====================================>                       ] Page 8 of 13[=========================================>                  ] Page 9 of 13[=============================================>              ] Page 10 of 13[==================================================>         ] Page 11 of 13[=======================================================>    ] Page 12 of 13[============================================================] Page 13 of 13Done                                                                        
+905.70user 7.30system 33:52.82elapsed 44%CPU (0avgtext+0avgdata 230084maxresident)k
+1525528inputs+1129680outputs (33major+2222854minor)pagefaults 0swaps
