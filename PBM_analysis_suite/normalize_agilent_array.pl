@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 #use lib './';
-use lib '/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite';
+use lib '/data/bulyk/pipelines/universal_PBM_analysis/PBM_analysis_suite';
 use analyze_agilent;
 
 ###########################################################
@@ -156,7 +156,7 @@ my $flag_col = 0;
 my $adjbsi_col = 0;
 my $bsi_col = 0;
 
-open (FH2, "<$PBM_input_file") or die "Cannot open $PBM_input_file";	
+open (FH2, "<$PBM_input_file") or die "Cannot open $PBM_input_file";
 while (my $line = <FH2>) {
     chomp $line;
     my @line = split /\t/, $line;
