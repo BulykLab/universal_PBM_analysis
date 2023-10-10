@@ -1,0 +1,21 @@
+INFO:root:Generating primary Seed & Wobble files...
+DEBUG:root:Command called: perl /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/seed_and_wobble.pl /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_combinatorial.txt 8 /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/pattern_files/patterns_8of10.txt /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/pattern_files/patterns_4x44k_all_8mer.txt /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/primary_RORCC02
+INFO:root:Re-ranking probe intensities...
+DEBUG:root:perl /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/rerank.pl /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_combinatorial.txt /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/primary_RORCC02_8mers_pwm.txt /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_reranked.txt
+INFO:root:Generating secondary S&W files...
+DEBUG:root:perl /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/seed_and_wobble.pl /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_reranked.txt 8 /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/pattern_files/patterns_8of10.txt /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite/pattern_files/patterns_4x44k_all_8mer.txt /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/secondary_RORCC02
+INFO:root:Selecting the top seed primary motif for BEEML optimization
+INFO:root: Now processing files with BEEML-PBM
+DEBUG:root:Rscript /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/BEEML_PBM_Example/GeneratePWM.R /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02_combinatorial.txt /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/primary_RORCC02_top_pwm.txt /n/data2/bch/medicine/bulyk/Sabrina/191105_v14_281_1/RORCC02
+Loading required package: methods
+Loading required package: grid
+Loading required package: minpack.lm
+Loading required package: MASS
+Warning message:
+In nls.lm(c(seed.mtx[f.pos], initial.mu), fn = beeml.ob.f.sum, target = good.values,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 15.
+
+INFO:root:Generating primary logo... (warnings can be ignored if they occur)
+INFO:root:Generating secondary logo... (warnings can be ignored if they occur)
+INFO:root:Generating BEEML logo... (warnings can be ignored if they occur)
+WARNING:root:The IC threshold given would trim all PWM positions.

@@ -1,0 +1,4 @@
+python: can't open file '/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts$': [Errno 2] No such file or directory
+0.00user 0.00system 0:00.08elapsed 18%CPU (0avgtext+0avgdata 4800maxresident)k
+104inputs+8outputs (2major+1418minor)pagefaults 0swaps
+/var/spool/slurmd/job55814826/slurm_script: line 5: /n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/Cy3normalization.py: Permission denied
