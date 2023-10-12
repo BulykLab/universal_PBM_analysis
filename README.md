@@ -62,7 +62,7 @@ Example: To combine the PBM Alexa488 scans for chamber 1, multiple iterations of
 ```
 perl masliner.pl –g1 PBMscan_Alexa488_lp80pg80_1-4.GPR –g2 PBMscan_Alexa488_lp90pg90_1-4.GPR –o output1.GPR –ll 200 –lh 40000 –f1 1 –f2 1
 
-perl masliner.pl –g1 output1.GPR –g2 PBMscan_Alexa488_lp100pg100_1-4.GPR –o PBMscan_Alexa488_MaslinerOutput_1-4.GPR –ll 200 –lh 40000 –f1 1 –f2 1
+ masliner.pl –g1 output1.GPR –g2 PBMscan_Alexa488_lp100pg100_1-4.GPR –o PBMscan_Alexa488_MaslinerOutput_1-4.GPR –ll 200 –lh 40000 –f1 1 –f2 1
 ```
 This creates a single file: 
 ```
@@ -148,7 +148,9 @@ $topN [default 3]:  This value sets the number of independent PWMs constructed. 
 When two PBM experiments have been performed, the combined k-mer scores and a single combined PWM can be determined using the Perl script seed_and_wobble_twoarray.pl.  (The two experiments can come from the same or different array designs, as long they are the same format, i.e. either 4x44K or 8x15K.)  This program also requires the file seed_and_wobble_modules.pm to be stored in the same directory.  It can be run almost exactly as the single-array version described above, but it requires a second ranked list of normalized intensities and probe sequences as input.  One other difference is that k-mer median intensities and Z-scores cannot always be directly combined from different experiments, so the only scores reported here are E-scores (which we devised specifically so that we could combine multiple experiments from different array designs).  
 
 For normalized data from array v1 and array v2, the command line would be as follows:
+```
 perl seed_and_wobble_twoarray.pl proteinA_v1_combinatorial.txt proteinB_v2_combinatorial.txt 8 patterns_8of10.txt patterns_4x44k_all_8mer.txt proteinA
+```
 
 The following output files would be generated:
 ```
