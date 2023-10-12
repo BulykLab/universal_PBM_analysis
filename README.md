@@ -51,7 +51,7 @@ PBMscan_Alexa488_lp80pg80_3-4.GPR
 PBMscan_Alexa488_lp80pg80_4-4.GPR
 ```
 
-Combining Multiple Scans of Different Intensities with Masliner
+### Combining Multiple Scans of Different Intensities with Masliner
 
 Masliner is a Perl script written by members of the Church lab (Dudley, Aach, Steffen, Church. PNAS, 2002.) in order to combine multiple scans of different intensities from the same microarray.  High intensity scans are often necessary to capture reliable above-background measurements of probes with weaker signals but may result in many bright spots exceeding saturation levels.  Lower intensity scans are consequently required to resolve the relative intensity differences among these brightest spots.  For a pair of scans, Masliner performs a linear regression using the spots that fall within the linear range of the scanner in both scans in order to extrapolate the signal intensities of any saturated spots in the brighter scan.  As output, Masliner returns the GPR file of the brighter scan, with additional columns appended to the end including the adjusted background-subtracted intensity (ADJBSI) of each probe.
 
