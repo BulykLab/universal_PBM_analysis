@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/ProcessGenePixSA_automated.py", line 189, in <module>
-    files_to_use = sorted([filename for filename in files_in_dir if re.search('[1-8]-[1-8].gpr', filename) ])
-  File "/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_helper_scripts/ProcessGenePixSA_automated.py", line 102, in AllFilesInDir
-    raise Exception('The directory "%s" does not exist.' %directory_path)
-Exception: The directory "/n/data2/bch/medicine/bulyk/Sabrina/191105_v14_280_1/" does not exist.
-0.07user 0.06system 0:00.69elapsed 20%CPU (0avgtext+0avgdata 18340maxresident)k
-50432inputs+16outputs (28major+6066minor)pagefaults 0swaps
