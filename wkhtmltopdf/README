@@ -1,0 +1,36 @@
+#did work
+#from https://stackoverflow.com/questions/2273534/how-to-install-wkhtmltopdf-on-a-linux-based-shared-hosting-web-server
+kew19@compute-a-16-167:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf$ wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+kew19@compute-a-16-167:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf$ tar -xf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+
+kew19@compute-a-16-167:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf/wkhtmltox/bin$ ./wkhtmltopdf http://www.google.com google.pdf
+Loading pages (1/6)
+Counting pages (2/6)
+Resolving links (4/6)
+Loading headers and footers (5/6)
+Printing pages (6/6)
+Done
+
+
+
+
+
+
+#didn't work
+kew19@compute-a-16-167:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf$ wget https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.5.tar.gz
+kew19@compute-a-16-167:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf$ mv 0.12.5.tar.gz wkhtmltopdf_0.12.5.tar.gz
+kew19@compute-a-16-167:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf$ tar -zxf wkhtmltopdf_0.12.5.tar.gz
+
+kew19@compute-a-16-168:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf$ wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox-0.12.5-1.centos7.x86_64.rpm
+
+
+
+kew19@compute-a-16-168:/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/wkhtmltopdf/wkhtmltopdf-0.12.5/examples$ make
+cc -I ../include   -L ../bin -lwkhtmltox -Wall -ansi -pedantic -ggdb  pdf_c_api.c   -o pdf_c_api
+pdf_c_api.c:25:27: fatal error: wkhtmltox/pdf.h: No such file or directory
+ #include <wkhtmltox/pdf.h>
+                           ^
+compilation terminated.
+make: *** [pdf_c_api] Error 1
+
+

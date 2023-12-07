@@ -1,0 +1,6 @@
+PBM Data files can be downloaded from the lab of Martha Bulyk http://thebrain.bwh.harvard.edu/uniprobe/downloads.php
+
+example.R takes a PBM data file ("Plagl1_0972.2_v1_deBruijn.txt") and pwm file ("Plagl1_pwm_primary.txt", for use as starting point of the optimiation)
+infers an energy model (PWM) and displays the fit as graphic.
+
+
