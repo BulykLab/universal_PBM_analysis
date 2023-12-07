@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 #use lib './';
-use lib '/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite';
+use lib '/data/bulyk/pipelines/universal_PBM_analysis/PBM_analysis_suite';
 use seed_and_wobble_modules;
 
 ##################################################################
@@ -58,7 +58,7 @@ open (FH1, "<$seed_pattern_file") or die "Cannot open seed patterns file.\n";
 while (my $text = <FH1>) {
 	my $numinfopos=0;
 	chomp $text;
-	push @seed_patterns, $text;	
+	push @seed_patterns, $text;
 	my @characters = split//,$text;
 	for (my $p=0; $p<=$#characters; $p++) {
 		if ($characters[$p] ne ".") {$numinfopos++;}
@@ -66,7 +66,7 @@ while (my $text = <FH1>) {
 	if ($numinfopos != $order) {
 		die "Number of positions in seed $text in $seed_pattern_file does not agree with order = $order\n";
 	}
-}	
+}
 
 close FH1;
 
@@ -169,7 +169,7 @@ while ($tally<=$#seed_patterns) {
 			my $rc_rev_element = rc($rev_element);
 			if ($rev_element lt $rc_rev_element) {$observedpatterns{$rev_element}=0;}
 			else {$observedpatterns{$rc_rev_element}=0;}
-		    }			
+		    }
 	    }
 	    foreach $key (keys %observedpatterns) {
 		    push @{$kmerranks{$key}},$spotnumber;
@@ -313,7 +313,7 @@ open (FH2, "<$total_pattern_file") or die "Cannot open total patterns file.\n";
 while (my $text = <FH2>) {
 	my $numinfopos=0;
 	chomp $text;
-	push @total_patterns, $text;	
+	push @total_patterns, $text;
 	my @characters = split//,$text;
 	for (my $p=0; $p<=$#characters; $p++) {
 		if ($characters[$p] ne ".") {$numinfopos++;}
@@ -321,7 +321,7 @@ while (my $text = <FH2>) {
 	if ($numinfopos != $order) {
 		die "Number of positions in seed $text in $total_pattern_file does not agree with order = $order\n";
 	}
-}	
+}
 
 close FH2;
 

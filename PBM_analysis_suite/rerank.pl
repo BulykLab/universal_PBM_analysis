@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 #use lib './';
-use lib '/n/data2/bch/medicine/bulyk/shared_software/universal_PBM_analysis/PBM_analysis_suite';
+use lib '/data/bulyk/pipelines/universal_PBM_analysis/PBM_analysis_suite';
 use seed_and_wobble_modules;
 
 #########################################################
@@ -18,7 +18,7 @@ use seed_and_wobble_modules;
 ### Outputs a list of sequences re-ranked by the obs/exp
 ###   intensity, based on the sequence score of the PWM.
 ### ***To score sequences, uses the probability matrix
-###   and the GOMER framework adapted by Chen and 
+###   and the GOMER framework adapted by Chen and
 ###   Morris in Bioinformatics 2007 (RankMotif).
 ###
 ### M. Berger
