@@ -349,6 +349,8 @@ primary_pwm.MakeLogo(output_dir + file_prefix+'_primary.png', '%s - Primary (%s 
                          %(file_prefix, primary_pwm.top_seed, primary_pwm.top_escore) )
 primary_pwm.MakeLogo(output_dir + file_prefix+'_primary_rc.png', '%s - Primary (%s - %s)' \
                          %(file_prefix, primary_pwm.top_seed, primary_pwm.top_escore), reverse_complement = True)
+
+
 if args.trim is True:
     cont = primary_pwm.Trim()
     if cont:
