@@ -4,11 +4,11 @@ Pipeline originally written by Luis Barrera, Katy Weinand, _et al_.
 
 Adapted by Raehoon Jeong 12/08/2023
 
-## Description
+## 1. Description
 This repository contains code to run the universal PBM analysis pipeline. It begins with .gpr files and outputs position weight matrices (PWMs), frequency matrices, motif logos, and an html report that aggregates the result, among other files. For a thorough description of the steps in the pipeline, also refer to this [overview](https://github.com/BulykLab/universal_PBM_analysis/blob/main/Overview.md). Currently, this directory is located in `/data/bulyk/pipelines/universal_PBM_analysis` in ERIS.
 
 
-## Setting up a virtual environment for the PBM analysis pipeline
+## 2. Setting up a virtual environment for the PBM analysis pipeline
 
 ### Step 0 Logging into ERISTWO
 For further information about the ERISTWO computing cluster, refer to the information page (https://rc.partners.org/kb/article/1315). The code below takes you to an interactive node in ERISTWO. You should only run jobs in the interactive node or submit them to the compute node.
@@ -30,7 +30,6 @@ conda create -n pbmenv python=3.7 R=3.6 -y
 
 ## 1-2. Activate the PBM analysis virtual environment (pbmenv)
 conda activate pbmenv
-
 ```
 
 ### Step 2 Installing necessary packages
@@ -43,8 +42,8 @@ conda install -c conda-forge r-minpack.lm -y
 conda install -c conda-forge weblogo -y
 ```
 
-## Test run
-Try running this test to make sure that the virtual environment is set up properly and that the necessary packages are installed.
+## 3. Test run
+Try running this test to make sure that the virtual environment is set up properly and that the necessary packages are installed. The user must create a directory within the `testfile` directory and copy the gpr files to run. Also, 
 
 ```
 ## 0-1. Log in to ERISTWO
@@ -61,9 +60,18 @@ cd /data/bulyk/pipelines/universal_PBM_analysis
 conda activate pbmenv
 
 ## 2. Create a directory [dirname] with test data (_i.e._ gpr files)
-mkdir test_file/[dirname]
-cp test_file/test_data/*gpr test_file/[dirname]/
+### This directory is where the input gpr files and the output files 
+cd testfile 
+mkdir [dirname]
+cp test_data/*gpr [dirname]/
 
-## 3. 
+## 3. Copy and modify the directory name to [dirname] in the test job submission code
+cp test_pbm_pipeline.lsf [filename].lsf
+## Open the file and change line 27 to 'DATA=[dirname]'
+vim [filename].lsf
 
+## 4. Submit the job
+bsub < [filename].lsf
+
+## 5. Check the result in [dirname]. Open report.html to see if the result looks as expected.
 ```
