@@ -43,7 +43,7 @@ conda install -c conda-forge weblogo -y
 ```
 
 ## 3. Test run
-Try running this test to make sure that the virtual environment is set up properly and that the necessary packages are installed. The user must create a directory within the `testfile` directory and copy the gpr files to run. Also, 
+Try running this test to make sure that the virtual environment is set up properly and that the necessary packages are installed. The user must create a directory within the `testfile` directory and copy the gpr files to run. Also, the user must copy and edit the job submission code. Ultimately, the outputs will be generated in the directory that is created.
 
 ```
 ## 0-1. Log in to ERISTWO
