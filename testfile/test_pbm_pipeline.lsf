@@ -1,0 +1,39 @@
+#!/bin/bash
+#BSUB -J output/testing
+#BSUB -o output/testing-%J.out
+#BSUB -e output/testing-%J.err
+#BSUB -n 1
+#BSUB -q normal
+
+# This is a sample script to test submission to LSF and the job environment
+# Choose a queue that you have access (eg the normal queue) and submit
+# job as follows:
+# ---
+# cd ~/lsf
+# bsub -q normal < test.lsf
+# ---
+# Then look in the ~/lsf/output folder for the script log
+# that matches the job ID number
+
+# Please make a copy of this script for your own modifications
+
+SECONDS=0
+
+## Run this before running this code
+#conda activate pbmenv
+
+DIR=/data/bulyk/pipelines/universal_PBM_analysis
+PROBE_FILE=${DIR}/PBM_analysis_suite/probe_sequences/8x60k_v14_amadid_30265_analysis.txt
+DATA=testing_221025_2
+
+
+cd ${DIR}
+
+python ${DIR}/PBM_helper_scripts/ProcessGenePixSA_automated_3.py -v -person RJ -annotations testing --trim ${DIR}/testfile/${DATA}/ ${PROBE_FILE} 4
+
+
+
+duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
+
+exit
