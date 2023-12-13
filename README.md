@@ -40,6 +40,7 @@ conda install -c conda-forge numpy -y
 conda install -c bioconda bioconductor-seqlogo -y
 conda install -c conda-forge r-minpack.lm -y
 conda install -c conda-forge weblogo -y
+conda install -c conda-forge ghostscript -y
 ```
 
 ## 3. Test run
