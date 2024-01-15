@@ -64,7 +64,7 @@ cd /data/bulyk/pipelines/universal_PBM_analysis
 ## YOU MUST RUN THIS BEFORE ANY JOB SUBMISSION!
 conda activate pbmenv
 
-## 2. Create a directory [dirname] with test data (_i.e._ gpr files)
+## 2. Create a directory [dirname] with test data (i.e. gpr files)
 ### This directory is where the input gpr files and the output files 
 cd testfile 
 mkdir [dirname]
