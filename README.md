@@ -88,6 +88,7 @@ There is a template file `PBM_analysis_template.lsf` that you can modify to anal
 
 ```
 DIR=/data/bulyk/pipelines/universal_PBM_analysis
+SCRIPT_FILE=${DIR}/PBM_helper_scripts/ProcessGenePixSA_automated_3.py
 PROBE_FILE=${DIR}/PBM_analysis_suite/probe_sequences/8x60k_v14_amadid_30265_analysis.txt
 
 ## FILL OUT THESE THREE ITEMS
@@ -97,7 +98,7 @@ TASK_NAME=[TASK_NAME]
 
 cd ${DIR}
 
-python ${DIR}/PBM_helper_scripts/ProcessGenePixSA_automated_3.py -v -person ${NAME} -annotations ${TASK_NAME} --trim ${DATA} ${PROBE_FILE} 4
+python ${SCRIPT_FILE} -v -person ${NAME} -annotations ${TASK_NAME} --trim ${DATA} ${PROBE_FILE} 4
 ```
 
 When the code is ready, make sure that the current working directory has your code and that you are in the `pbmenv` virtual environment (you will see `(pbmenv) [your_id@some_node ~]$` in your terminal.). The output files, including the report file, will all be generated in `[YOUR_DIRECTORY]`. Good luck with your analysis!
