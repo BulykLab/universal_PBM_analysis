@@ -33,7 +33,7 @@ conda activate pbmenv
 ```
 
 ### Step 2 - Installing necessary packages
-Here is a list of specific packages that need to be installed: seqlogo, minpack, and weblogo. However, if there are other packages that are missing, use the `conda install [package]` command to install that package.
+You must activate a virtual environment in Step 1 before running Step 2. Here is a list of specific packages that need to be installed: seqlogo, minpack, and weblogo. However, if there are other packages that are missing, use the `conda install [package]` command to install that package.
 
 ```
 conda install -c conda-forge numpy -y
