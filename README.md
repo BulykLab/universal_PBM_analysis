@@ -91,10 +91,11 @@ DIR=/data/bulyk/pipelines/universal_PBM_analysis
 SCRIPT_FILE=${DIR}/PBM_helper_scripts/ProcessGenePixSA_automated_3.py
 PROBE_FILE=${DIR}/PBM_analysis_suite/probe_sequences/8x60k_v14_amadid_30265_analysis.txt
 
-## FILL OUT THESE THREE ITEMS
+#### FILL OUT THESE THREE ITEMS
 DATA=[YOUR_DIRECTORY]
 NAME=[YOUR_NAME]
 TASK_NAME=[TASK_NAME]
+####
 
 cd ${DIR}
 
