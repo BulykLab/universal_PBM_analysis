@@ -1,0 +1,44 @@
+#!/bin/bash
+#BSUB -J output/install
+#BSUB -o output/install-%J.out
+#BSUB -e output/install-%J.err
+#BSUB -n 1
+#BSUB -q normal
+#BSUB -N
+#BSUB -u ehrothman@bwh.harvard.edu
+
+
+# This is a sample script to test submission to LSF and the job environment
+# Choose a queue that you have access (eg the normal queue) and submit
+# job as follows:
+# ---
+# cd ~/lsf
+# bsub -q normal < test.lsf
+# ---
+# Then look in the ~/lsf/output folder for the script log
+# that matches the job ID number
+
+# Please make a copy of this script for your own modifications
+
+SECONDS=0
+
+## Run this before running this code
+#conda activate pbmenv
+
+DIR=/data/bulyk/pipelines/universal_PBM_analysis
+
+#export PATH=$PATH:~/.conda/envs/pbmenv/bin/
+
+cd ${DIR}
+
+conda install -c conda-forge numpy -y
+conda install -c bioconda bioconductor-seqlogo -y
+conda install -c conda-forge r-minpack.lm -y
+conda install -c conda-forge weblogo -y
+conda install -c conda-forge ghostscript -y
+
+
+duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
+
+exit
