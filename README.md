@@ -22,7 +22,7 @@ bsub -Is -q interactive -R 'rusage[mem=16000]' /bin/bash'
 ```
 
 ### Step 1 - Creating a virtual environment
-In order to make sure that all the prerequisite packages are installed with the correct version of python (3.7) and R (3.6), setting up a conda virtual environment is useful.
+In order to make sure that all the prerequisite packages are installed with the correct version of python (3.7) and R (3.6), setting up a conda virtual environment is useful. The code below should run to completion before proceeding.
 
 ```
 ## 1-1. Create a virtual environment (I named it pbmenv)
@@ -31,6 +31,8 @@ conda create -n pbmenv python=3.7 R=3.6 -y
 ## 1-2. Activate the PBM analysis virtual environment (pbmenv)
 conda activate pbmenv
 ```
+
+If you continue Step 2 at a later session, you can simply run `conda activate pbmenv` without creating a new virtual environment (because it is already created).
 
 ### Step 2 - Installing necessary packages
 You must activate a virtual environment in Step 1 before running Step 2. Here is a list of specific packages that need to be installed: seqlogo, minpack, and weblogo. However, if there are other packages that are missing, use the `conda install [package]` command to install that package.
@@ -42,6 +44,8 @@ conda install -c conda-forge r-minpack.lm -y
 conda install -c conda-forge weblogo -y
 conda install -c conda-forge ghostscript -y
 ```
+
+I also created `install_package.lsf` that installs these packages in a submitted job. If the above installation takes too long, which often leads to the user being kicked out of ERISTWO, you can run `bsub < install_package.lsf` after completing Step 1.
 
 ## 3. Test run
 Try running this test to make sure that the virtual environment is set up properly and that the necessary packages are installed. The user must create a directory within the `testfile` directory and copy the gpr files to run. Also, the user must copy and edit the job submission code. Ultimately, the outputs will be generated in the directory that is created.
