@@ -45,7 +45,7 @@ conda install -c conda-forge weblogo -y
 conda install -c conda-forge ghostscript -y
 ```
 
-I also created `install_package.lsf` that installs these packages in a submitted job. If the above installation takes too long, which often leads to the user being kicked out of ERISTWO, you can run `bsub < install_package.lsf` after completing Step 1.
+There is `install_package.lsf` that installs these packages in a submitted job. If the above installation takes too long, which often leads to the user being kicked out of ERISTWO, you can run `bsub < install_package.lsf` after completing Step 1.
 
 ## 3. Test run
 Try running this test to make sure that the virtual environment is set up properly and that the necessary packages are installed. The user must create a directory within the `testfile` directory and copy the gpr files to run. Also, the user must copy and edit the job submission code. Ultimately, the outputs will be generated in the directory that is created.
@@ -80,3 +80,24 @@ bsub < [filename].lsf
 
 ## 5. Check the result in [dirname]. Open report.html to see if the result looks as expected.
 ```
+
+## 4. Typical run
+If the test run (Step 3) runs without a problem, you are ready to analyze your PBM data!
+
+There is a template file `PBM_analysis_template.lsf` that you can modify to analyze your PBM data. The gpr files must be stored in a directory of your choice. This directory corresponds to `[YOUR_DIRECTORY]` below. `[YOUR_NAME]` is simply your name so that the report file lists your name in the title section. `[TASK_NAME]` is a name you give for this analysis. This will also show up in the title section of the report. 
+
+```
+DIR=/data/bulyk/pipelines/universal_PBM_analysis
+PROBE_FILE=${DIR}/PBM_analysis_suite/probe_sequences/8x60k_v14_amadid_30265_analysis.txt
+
+## FILL OUT THESE THREE ITEMS
+DATA=[YOUR_DIRECTORY]
+NAME=[YOUR_NAME]
+TASK_NAME=[TASK_NAME]
+
+cd ${DIR}
+
+python ${DIR}/PBM_helper_scripts/ProcessGenePixSA_automated_3.py -v -person ${NAME} -annotations ${TASK_NAME} --trim ${DATA} ${PROBE_FILE} 4
+```
+
+When the code is ready, make sure that the current working directory has your code and that you are in the `pbmenv` virtual environment (you will see `(pbmenv) [ID@NODE ~]$`
