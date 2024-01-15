@@ -2,7 +2,7 @@
 
 Pipeline originally written by Luis Barrera, Katy Weinand, _et al_.
 
-Adapted by Raehoon Jeong 12/08/2023
+Adapted by Raehoon Jeong 1/15/2024
 
 ## 1. Description
 This repository contains code to run the universal PBM analysis pipeline. It begins with .gpr files and outputs position weight matrices (PWMs), frequency matrices, motif logos, and an html report that aggregates the result, among other files. For a thorough description of the steps in the pipeline, also refer to this [overview](https://github.com/BulykLab/universal_PBM_analysis/blob/main/Overview.md). Currently, this directory is located in `/data/bulyk/pipelines/universal_PBM_analysis` in ERIS.
@@ -84,7 +84,7 @@ bsub < [filename].lsf
 ## 4. Typical run
 If the test run (Step 3) runs without a problem, you are ready to analyze your PBM data!
 
-There is a template file `PBM_analysis_template.lsf` that you can modify to analyze your PBM data. The gpr files must be stored in a directory of your choice. This directory corresponds to `[YOUR_DIRECTORY]` below. `[YOUR_NAME]` is simply your name so that the report file lists your name in the title section. `[TASK_NAME]` is a name you give for this analysis. This will also show up in the title section of the report. 
+There is a template file `PBM_analysis_template.lsf` that you can modify to analyze your PBM data. The gpr files must be stored in a directory of your choice. This directory corresponds to `[YOUR_DIRECTORY]` below. `[YOUR_NAME]` is simply your name so that the report file lists your name in the title section. `[TASK_NAME]` is a name you give for this analysis. This will also show up in the title section of the report. Below is part of the template file `PBM_analysis_template.lsf`.
 
 ```
 DIR=/data/bulyk/pipelines/universal_PBM_analysis
